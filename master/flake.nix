@@ -1,5 +1,5 @@
 {
-  description = ''ISAAC PRNG implementation on Nim'';
+  description = ''ISAAC PRNG implementation'';
 
   inputs.flakeNimbleLib.owner = "riinr";
   inputs.flakeNimbleLib.ref   = "master";
@@ -9,7 +9,7 @@
   
   inputs.src-isaac-master.flake = false;
   inputs.src-isaac-master.owner = "pragmagic";
-  inputs.src-isaac-master.ref   = "refs/heads/master";
+  inputs.src-isaac-master.ref   = "master";
   inputs.src-isaac-master.repo  = "isaac";
   inputs.src-isaac-master.type  = "github";
   
