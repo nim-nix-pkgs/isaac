@@ -11,6 +11,7 @@
   inputs.src-isaac-v0_1_2.ref   = "refs/tags/v0.1.2";
   inputs.src-isaac-v0_1_2.owner = "pragmagic";
   inputs.src-isaac-v0_1_2.repo  = "isaac";
+  inputs.src-isaac-v0_1_2.dir   = "";
   inputs.src-isaac-v0_1_2.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
